@@ -1,0 +1,66 @@
+/* Font style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  /* Shared styles */
+  .background-color{
+    background-color: black;
+  }
+  .background-gradient{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  }
+  .primary-color{
+    color: rgb(255, 255, 255);
+  }
+  .primary-color-light{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .secondary-color{
+    color: rgb(230, 83, 60);
+  }
+  .display-flex{
+    display: flex;
+  }
+
+
+
+
+  /* Navbar styles */
+  .links-item{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 40px;
+  }
+  .nav-links{
+    font-size: 1rem;
+  }
+  #home{
+    border: 2px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    padding: 8px 20px;
+    border-radius: 46px;
+  }
+  nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 190px 96px 190px;
+  }
+  .nav-header{
+    font-size: 2.3rem;
+font-weight: 800;
+  }
+  /* Header styles */
+  header{
+    background-color: rgb(17, 17, 17)
+    rgba(119, 119, 119, 0)
+  }
